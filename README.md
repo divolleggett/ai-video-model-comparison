@@ -58,26 +58,28 @@ The most comprehensive technical benchmark of leading AI video generation models
 
 | Model | Provider | Atlas Price | Discount |
 |:------|:---------|:-----------|:---------|
-| Seedance v1.5 Pro T2V | ByteDance | $0.222/req | 90% off |
-| Seedance v1.5 Pro I2V | ByteDance | $0.222/req | 90% off |
-| Seedance v1.5 Pro Fast | ByteDance | < $0.222/req | 90% off |
-| Kling v3.0 Pro T2V | Kuaishou | $0.204/req | 85% off |
-| Kling v3.0 Std T2V | Kuaishou | < $0.204/req | — |
+| Seedance v1.5 Pro T2V | ByteDance | from $0.222/s | 90% off |
+| Seedance v1.5 Pro I2V | ByteDance | from $0.222/s | 90% off |
+| Seedance v1.5 Pro Fast | ByteDance | < $0.222/s | 90% off |
+| Kling v3.0 Pro T2V | Kuaishou | from $0.204/s | 85% off |
+| Kling v3.0 Std T2V | Kuaishou | < $0.204/s | — |
 | Kling O3 Pro T2V | Kuaishou | Available | — |
 | Kling O3 Pro Ref2V | Kuaishou | Available | — |
 | Kling O3 Pro Video-Edit | Kuaishou | Available | — |
-| Wan 2.6 T2V | Alibaba | $0.07/req | 70% off |
+| Wan 2.6 T2V | Alibaba | from $0.07/s | 70% off |
 | Wan 2.6 I2V | Alibaba | Available | — |
 | Wan 2.6 V2V | Alibaba | Available | — |
-| Wan 2.2 Spicy I2V | Alibaba | $0.03/req | NSFW |
-| Veo 3.1 T2V | Google | $0.18/req | 90% off |
+| Wan 2.2 Spicy I2V | Alibaba | from $0.03/s | NSFW |
+| Veo 3.1 T2V | Google | from $0.18/s | 90% off |
 | Veo 3.1 I2V | Google | Available | — |
 | Veo 3.1 Ref2V | Google | Available | — |
-| Hailuo 2.3 Pro T2V | MiniMax | $0.49/req | — |
-| Hailuo 2.3 Std T2V | MiniMax | < $0.49/req | — |
+| Hailuo 2.3 Pro T2V | MiniMax | from $0.49/s | — |
+| Hailuo 2.3 Std T2V | MiniMax | < $0.49/s | — |
 | Vidu Q3 Pro T2V | Vidu | Available | — |
 
 > All models accessible through [Atlas Cloud's unified API](https://www.atlascloud.ai?ref=JPM683).
+
+*Prices shown are starting prices. Higher resolution or longer duration may cost more.*
 
 ---
 
@@ -108,7 +110,7 @@ Subjective but systematic evaluation of output quality across visual clarity, pr
               │              │              │
     ┌─────────▼────┐  ┌─────▼──────┐  ┌───▼──────────┐
     │   PRICING    │  │  QUALITY   │  │  USE CASE    │
-    │  $/request   │  │  Visual    │  │  Scenario    │
+    │  $/second    │  │  Visual    │  │  Scenario    │
     │  $/second    │  │  Audio     │  │  Matching    │
     │  $/100 vids  │  │  Physics   │  │              │
     └──────────────┘  └────────────┘  └──────────────┘
@@ -151,7 +153,7 @@ Which input-to-output modalities does each model support?
 | **Seedance v1.5** | 720p (1280×720) | 24 fps | 15s | 6 options (16:9, 9:16, 1:1, 4:3, 3:4, 21:9) | ❌ |
 | **Kling 3.0** | **4K (3840×2160)** | **60 fps** | 15s | 3 options (16:9, 9:16, 1:1) | ❌ |
 | **Kling O3** | 1080p (1920×1080) | 30 fps | 10s | 3 options (16:9, 9:16, 1:1) | ❌ |
-| **Wan 2.6** | 1080p (1920×1080) | 24 fps | 15s | **10 options** (16:9, 9:16, 1:1, 4:3, 3:4, 21:9, 9:21, 3:2, 2:3, custom) | ✅ |
+| **Wan 2.6** | 1080p (1920×1080) | 24 fps | 15s | **10 options** (16:9, 9:16, 1:1, 4:3, 3:4, 21:9, 9:21, 3:2, 2:3, custom) | ❌ |
 | **Wan 2.2 Spicy** | 1080p (1920×1080) | 24 fps | 5s | Varies (input-dependent) | ✅ (base) |
 | **Veo 3.1** | 1080p (1920×1080) | 24 fps | 8s | 2 options (16:9, 9:16) | ❌ |
 | **Hailuo 2.3** | 1080p (1920×1080) | 24 fps | 10s | Varies | ❌ |
@@ -162,7 +164,7 @@ Which input-to-output modalities does each model support?
 - **Highest resolution**: **Kling 3.0** at native 4K — the only model that outputs 4K video
 - **Highest frame rate**: **Kling 3.0** at 60fps — cinema-grade smoothness
 - **Most flexible aspect ratios**: **Wan 2.6** with 10 options including custom
-- **Only open-source model**: **Wan 2.6** — full weights available for self-hosting
+- **Best value model**: **Wan 2.6** — best quality-to-price ratio at from $0.07/suest
 - **Longest max duration**: **Seedance v1.5**, **Kling 3.0**, and **Wan 2.6** tied at 15 seconds
 
 ---
@@ -205,11 +207,11 @@ Each model brings distinct strengths to the table. Here is what makes each one s
 
 | Capability | Details |
 |:-----------|:--------|
-| **Open Source** | Full model weights available — self-host, fine-tune, customize |
+| **Best Value** | Best quality-to-price ratio in the market at from $0.07/suest |
 | **10 Aspect Ratios** | Most flexible output format options, including custom ratios |
 | **Prompt Expansion** | Built-in prompt enhancement for better results from simple inputs |
 | **Video-to-Video** | Unique V2V capability for style transfer and content transformation |
-| **Cheapest Quality Option** | Best quality-to-price ratio in the market at $0.07/request |
+| **Cheapest Quality Option** | Best quality-to-price ratio in the market at from $0.07/suest |
 
 #### Wan 2.2 Spicy (Alibaba)
 
@@ -217,7 +219,7 @@ Each model brings distinct strengths to the table. Here is what makes each one s
 |:-----------|:--------|
 | **Uncensored Generation** | No content filtering — NSFW content permitted |
 | **LoRA Support** | Custom LoRA fine-tuning for specialized styles and characters |
-| **Ultra-Low Cost** | $0.03 per request — cheapest video generation available |
+| **Ultra-Low Cost** | from $0.03 per second — cheapest video generation available |
 | **I2V Specialized** | Optimized specifically for image-to-video transformation |
 
 #### Veo 3.1 (Google)
@@ -257,12 +259,12 @@ Official API pricing from each provider (where publicly available):
 
 | Model | Official Price (T2V) | Official Price (I2V) | Notes |
 |:------|:---------------------|:---------------------|:------|
-| Seedance v1.5 Pro | ~$2.22/req | ~$2.22/req | ByteDance Volcengine pricing |
-| Kling 3.0 Pro | ~$1.36/req | ~$1.36/req | Kuaishou official API |
-| Kling 3.0 Std | ~$0.34/req | ~$0.34/req | Standard tier |
-| Wan 2.6 | ~$0.23/req | ~$0.23/req | Alibaba DashScope |
-| Veo 3.1 | ~$1.80/req | ~$1.80/req | Google Vertex AI |
-| Hailuo 2.3 Pro | ~$0.49/req | ~$0.49/req | MiniMax API |
+| Seedance v1.5 Pro | ~from $2.22/s | ~from $2.22/s | ByteDance Volcengine pricing |
+| Kling 3.0 Pro | ~from $1.36/s | ~from $1.36/s | Kuaishou official API |
+| Kling 3.0 Std | ~from $0.34/s | ~from $0.34/s | Standard tier |
+| Wan 2.6 | ~from $0.23/s | ~from $0.23/s | Alibaba DashScope |
+| Veo 3.1 | ~from $1.80/s | ~from $1.80/s | Google Vertex AI |
+| Hailuo 2.3 Pro | ~from $0.49/s | ~from $0.49/s | MiniMax API |
 
 > Note: Official prices vary by region, commitment level, and billing method. Prices above are approximate pay-as-you-go rates as of March 2026.
 
@@ -555,7 +557,7 @@ Soft piano music plays in the background.
 | Prompt expansion | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
 | Volume scalability | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
 
-**Recommendation**: Education platforms need hundreds of video clips. At $0.07/video, **Wan 2.6** makes bulk generation economically viable. Quality is more than sufficient for educational explainers, diagrams, and illustrative animations.
+**Recommendation**: Education platforms need hundreds of video clips. At from $0.07/s, **Wan 2.6** makes bulk generation economically viable. Quality is more than sufficient for educational explainers, diagrams, and illustrative animations.
 
 ---
 
@@ -616,7 +618,7 @@ Soft piano music plays in the background.
 |:----:|:------|:---------|:-------:|:-----:|:-----------:|:-------------:|
 | **1** | **Kling 3.0 Pro** | Premium quality, 4K cinema | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | **⭐⭐⭐⭐½** |
 | **2** | **Seedance v1.5 Pro** | Audio-visual, creative | ⭐⭐⭐⭐½ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | **⭐⭐⭐⭐½** |
-| **3** | **Wan 2.6** | Best value, open source | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | **⭐⭐⭐⭐¼** |
+| **3** | **Wan 2.6** | Best value | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | **⭐⭐⭐⭐¼** |
 | **4** | **Kling O3** | Editing, multimodal | ⭐⭐⭐⭐ | ⭐⭐⭐½ | ⭐⭐⭐⭐⭐ | **⭐⭐⭐⭐** |
 | **5** | **Veo 3.1** | Google ecosystem, enterprise | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐½ | **⭐⭐⭐⭐** |
 | **6** | **Hailuo 2.3** | Fast generation | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | **⭐⭐⭐½** |
@@ -629,17 +631,17 @@ Soft piano music plays in the background.
 
 | Use Case | Recommended Model | Why | Atlas Price |
 |:---------|:-----------------|:----|:-----------|
-| **Highest visual quality** | Kling 3.0 Pro | Native 4K, 60fps, best physics | $0.204/req |
-| **Best audio/lip-sync** | Seedance v1.5 Pro | 8+ language lip-sync, audio gen | $0.222/req |
-| **Cheapest quality option** | Wan 2.6 | 70% off, open source | $0.07/req |
-| **NSFW content** | Wan 2.2 Spicy | Only uncensored option | $0.03/req |
+| **Highest visual quality** | Kling 3.0 Pro | Native 4K, 60fps, best physics | from $0.204/s |
+| **Best audio/lip-sync** | Seedance v1.5 Pro | 8+ language lip-sync, audio gen | from $0.222/s |
+| **Cheapest quality option** | Wan 2.6 | 70% off, best value | from $0.07/s |
+| **NSFW content** | Wan 2.2 Spicy | Only uncensored option | from $0.03/s |
 | **Video editing** | Kling O3 | Only model with edit capability | Available |
-| **Enterprise/compliance** | Veo 3.1 | Google safety, SynthID | $0.18/req |
-| **Multi-scene narrative** | Kling 3.0 Pro | 6-shot composition | $0.204/req |
-| **Open source/self-host** | Wan 2.6 | Full weights available | $0.07/req (or free self-hosted) |
+| **Enterprise/compliance** | Veo 3.1 | Google safety, SynthID | from $0.18/s |
+| **Multi-scene narrative** | Kling 3.0 Pro | 6-shot composition | from $0.204/s |
+| **Open source/self-host** | Wan 2.1/2.2 | Full weights available (Apache 2.0) | Free (self-hosted) |
 | **Reference consistency** | Kling O3 / Vidu Q3 | Ref-to-video architecture | Available |
-| **Fastest generation** | Hailuo 2.3 | Optimized inference | $0.49/req |
-| **Budget bulk production** | Wan 2.6 | $7 per 100 videos | $0.07/req |
+| **Fastest generation** | Hailuo 2.3 | Optimized inference | from $0.49/s |
+| **Budget bulk production** | Wan 2.6 | $7 per 100 videos | from $0.07/s |
 
 ---
 
@@ -805,13 +807,13 @@ async function generateVideo(modelKey, prompt, duration = 5) {
 
 | Model | fal.ai Price | Atlas Cloud Price | You Save |
 |:------|:------------|:-----------------|:---------|
-| **Kling** | $0.224/sec (5s = $1.12) | $0.204/req | **82% cheaper** |
-| **Seedance** | ~$0.26/video | $0.222/req | **15% cheaper** |
-| **Wan 2.5** | $0.05/sec (5s = $0.25) | $0.05/req | **80% cheaper** |
-| **Wan 2.6** | Similar pricing | $0.07/req | Competitive |
+| **Kling** | $0.224/sec (5s = $1.12) | from $0.204/s | **82% cheaper** |
+| **Seedance** | from ~$0.26/s | from $0.222/s | **15% cheaper** |
+| **Wan 2.5** | $0.05/sec (5s = $0.25) | from $0.05/s | **80% cheaper** |
+| **Wan 2.6** | Similar pricing | from $0.07/s | Competitive |
 | **Veo 3** | $0.40/sec (8s = $3.20) | TBD | Coming soon |
-| **Vidu Q3-Pro** | — | $0.06/req | Atlas exclusive |
-| **Vidu Q3-Turbo** | — | $0.034/req | Atlas exclusive |
+| **Vidu Q3-Pro** | — | from $0.06/s | Atlas exclusive |
+| **Vidu Q3-Turbo** | — | from $0.034/s | Atlas exclusive |
 
 > 💡 Atlas Cloud offers the **lowest prices** across all major video models. Switch from fal.ai and save up to **82%** on your video generation costs.
 
@@ -823,7 +825,7 @@ async function generateVideo(modelKey, prompt, duration = 5) {
 
 It depends on your priorities:
 - **Best overall quality**: **Kling 3.0 Pro** — native 4K, 60fps, best physics simulation
-- **Best value**: **Wan 2.6** — $0.07/request with quality rivaling models 3x its price
+- **Best value**: **Wan 2.6** — from $0.07/suest with quality rivaling models 3x its price
 - **Best audio sync**: **Seedance v1.5 Pro** — phoneme-level lip-sync in 8+ languages
 - **Best for enterprise**: **Veo 3.1** — Google safety standards, SynthID watermarking
 
@@ -834,9 +836,9 @@ It depends on your priorities:
 ### What is the cheapest AI video generation API?
 
 Through [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683):
-1. **Wan 2.2 Spicy**: $0.03/request (NSFW, I2V only)
-2. **Wan 2.6**: $0.07/request (general purpose, best value)
-3. **Veo 3.1**: $0.18/request (90% off official Google pricing)
+1. **Wan 2.2 Spicy**: from $0.03/suest (NSFW, I2V only)
+2. **Wan 2.6**: from $0.07/suest (general purpose, best value)
+3. **Veo 3.1**: from $0.18/suest (90% off official Google pricing)
 
 ### Which AI video model has the best quality?
 
@@ -844,7 +846,7 @@ Through [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683):
 
 ### Can I generate NSFW AI video?
 
-Yes — **Wan 2.2 Spicy I2V** is available through [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) at $0.03/request. It is the only model in this benchmark that allows uncensored content generation. Note: it is Image-to-Video only (no text-to-video).
+Yes — **Wan 2.2 Spicy I2V** is available through [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) at from $0.03/suest. It is the only model in this benchmark that allows uncensored content generation. Note: it is Image-to-Video only (no text-to-video).
 
 ### How do I switch between models?
 
@@ -862,7 +864,7 @@ Atlas Cloud offers a **25% bonus on first top-up** (up to $100 bonus). This mean
 
 ### Which model is best for social media content?
 
-**Wan 2.6** for bulk TikTok/Reels/Shorts content — it supports all social media aspect ratios (9:16, 1:1, 16:9) at $0.07/video. For premium social content, **Seedance v1.5** offers audio sync that elevates production quality significantly.
+**Wan 2.6** for bulk TikTok/Reels/Shorts content — it supports all social media aspect ratios (9:16, 1:1, 16:9) at from $0.07/s. For premium social content, **Seedance v1.5** offers audio sync that elevates production quality significantly.
 
 ### Kling vs Sora: which should I choose?
 
