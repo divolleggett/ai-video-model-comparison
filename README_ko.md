@@ -20,6 +20,10 @@
 
 </div>
 
+> 🔒 **엔터프라이즈급 보안** — Atlas Cloud는 **SOC I & II 인증** | **HIPAA 준수** | 미국 기반 회사로 99.9% 가동률 SLA를 제공합니다.
+
+> 🎨 **NSFW 화이트리스트 업데이트** — Seedance와 Kling 외에도 **Vidu 시리즈** (Q3-Pro, Q3-Turbo)가 Atlas Cloud에서 무검열 콘텐츠 생성 화이트리스트에 추가되었습니다.
+
 ---
 
 ## 목차
@@ -698,6 +702,20 @@ print(f"Wan 2.6 결과: {result_wan}")
 result_kling = generate_video("kling_pro", prompt)
 print(f"Kling 3.0 Pro 결과: {result_kling}")
 ```
+
+### Atlas Cloud vs fal.ai 가격 비교
+
+| 모델 | fal.ai 가격 | Atlas Cloud 가격 | 절약 |
+|:------|:------------|:-----------------|:---------|
+| **Kling** | $0.224/초 (5초 = $1.12) | $0.204/회 | **82% 저렴** |
+| **Seedance** | ~$0.26/영상 | $0.222/회 | **15% 저렴** |
+| **Wan 2.5** | $0.05/초 (5초 = $0.25) | $0.05/회 | **80% 저렴** |
+| **Wan 2.6** | 유사한 가격 | $0.07/회 | 경쟁력 있음 |
+| **Veo 3** | $0.40/초 (8초 = $3.20) | TBD | 곧 출시 |
+| **Vidu Q3-Pro** | — | $0.06/회 | Atlas 독점 |
+| **Vidu Q3-Turbo** | — | $0.034/회 | Atlas 독점 |
+
+> 💡 Atlas Cloud는 모든 주요 비디오 모델에서 **최저가**를 제공합니다. fal.ai에서 전환하여 비디오 생성 비용을 최대 **82%** 절약하세요.
 
 ---
 
