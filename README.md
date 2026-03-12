@@ -58,9 +58,9 @@ The most comprehensive technical benchmark of leading AI video generation models
 
 | Model | Provider | Atlas Price | Discount |
 |:------|:---------|:-----------|:---------|
-| Seedance v1.5 Pro T2V | ByteDance | from $0.222/s | 90% off |
-| Seedance v1.5 Pro I2V | ByteDance | from $0.222/s | 90% off |
-| Seedance v1.5 Pro Fast | ByteDance | < $0.222/s | 90% off |
+| Seedance v1.5 Pro T2V | ByteDance | from $0.044/s | 90% off |
+| Seedance v1.5 Pro I2V | ByteDance | from $0.044/s | 90% off |
+| Seedance v1.5 Pro Fast | ByteDance | < $0.044/s | 90% off |
 | Kling v3.0 Pro T2V | Kuaishou | from $0.204/s | 85% off |
 | Kling v3.0 Std T2V | Kuaishou | < $0.204/s | — |
 | Kling O3 Pro T2V | Kuaishou | Available | — |
@@ -632,7 +632,7 @@ Soft piano music plays in the background.
 | Use Case | Recommended Model | Why | Atlas Price |
 |:---------|:-----------------|:----|:-----------|
 | **Highest visual quality** | Kling 3.0 Pro | Native 4K, 60fps, best physics | from $0.204/s |
-| **Best audio/lip-sync** | Seedance v1.5 Pro | 8+ language lip-sync, audio gen | from $0.222/s |
+| **Best audio/lip-sync** | Seedance v1.5 Pro | 8+ language lip-sync, audio gen | from $0.044/s |
 | **Cheapest quality option** | Wan 2.6 | 70% off, best value | from $0.07/s |
 | **NSFW content** | Wan 2.2 Spicy | Only uncensored option | from $0.03/s |
 | **Video editing** | Kling O3 | Only model with edit capability | Available |
@@ -690,7 +690,7 @@ BASE_URL = "https://api.atlascloud.ai/v1/video/generate"
 
 # 所有可用模型 — 切换只需更改model字段
 MODELS = {
-    "seedance": "seedance-v1.5-pro-t2v",      # $0.222/请求 — 最佳音频同步
+    "seedance": "seedance-v1.5-pro-t2v",      # $0.044/s — 最佳音频同步
     "kling_pro": "kling-v3.0-pro-t2v",         # $0.204/请求 — 4K画质
     "kling_o3": "kling-o3-pro-t2v",            # 多模态统一模型
     "wan": "wan-2.6-t2v",                       # $0.07/请求 — 性价比之王
@@ -754,7 +754,7 @@ const BASE_URL = "https://api.atlascloud.ai/v1/video/generate";
 
 // 可用模型列表
 const MODELS = {
-  seedance: "seedance-v1.5-pro-t2v",     // $0.222/请求
+  seedance: "seedance-v1.5-pro-t2v",     // $0.044/s
   kling_pro: "kling-v3.0-pro-t2v",       // $0.204/请求
   wan: "wan-2.6-t2v",                     // $0.07/请求
   veo: "veo-3.1-t2v",                    // $0.18/请求
@@ -808,7 +808,7 @@ async function generateVideo(modelKey, prompt, duration = 5) {
 | Model | fal.ai Price | Atlas Cloud Price | You Save |
 |:------|:------------|:-----------------|:---------|
 | **Kling** | $0.224/sec (5s = $1.12) | from $0.204/s | **82% cheaper** |
-| **Seedance** | from ~$0.26/s | from $0.222/s | **15% cheaper** |
+| **Seedance** | from ~$0.26/s | from $0.044/s | **15% cheaper** |
 | **Wan 2.5** | $0.05/sec (5s = $0.25) | from $0.05/s | **80% cheaper** |
 | **Wan 2.6** | Similar pricing | from $0.07/s | Competitive |
 | **Veo 3** | $0.40/sec (8s = $3.20) | TBD | Coming soon |
