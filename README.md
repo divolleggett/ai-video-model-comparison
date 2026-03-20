@@ -16,7 +16,7 @@ The most comprehensive technical benchmark of leading AI video generation models
 
 ---
 
-**Try every model through one API** — [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) offers all 18 models below with up to **90% off** official pricing.
+**Try every model through one API** — [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=ai-video-model-comparison) offers all 18 models below with up to **90% off** official pricing.
 
 </div>
 
@@ -77,7 +77,7 @@ The most comprehensive technical benchmark of leading AI video generation models
 | Hailuo 2.3 Std T2V | MiniMax | < $0.49/s | — |
 | Vidu Q3 Pro T2V | Vidu | Available | — |
 
-> All models accessible through [Atlas Cloud's unified API](https://www.atlascloud.ai?ref=JPM683).
+> All models accessible through [Atlas Cloud's unified API](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=ai-video-model-comparison).
 
 *Prices shown are starting prices. Higher resolution or longer duration may cost more.*
 
@@ -656,7 +656,7 @@ Soft piano music plays in the background.
 | **No Minimum Commitment** | Pay per request. No monthly minimums, no long-term contracts. |
 | **Model Switching** | Change one parameter to switch between any model — perfect for A/B testing and finding the right fit. |
 
-> **Start now**: [https://www.atlascloud.ai?ref=JPM683](https://www.atlascloud.ai?ref=JPM683)
+> **Start now**: [https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=ai-video-model-comparison](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=ai-video-model-comparison)
 
 ---
 
@@ -835,7 +835,7 @@ It depends on your priorities:
 
 ### What is the cheapest AI video generation API?
 
-Through [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683):
+Through [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=ai-video-model-comparison):
 1. **Wan 2.2 Spicy**: from $0.03/suest (NSFW, I2V only)
 2. **Wan 2.6**: from $0.07/suest (general purpose, best value)
 3. **Veo 3.1**: from $0.18/suest (90% off official Google pricing)
@@ -846,7 +846,7 @@ Through [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683):
 
 ### Can I generate NSFW AI video?
 
-Yes — **Wan 2.2 Spicy I2V** is available through [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) at from $0.03/suest. It is the only model in this benchmark that allows uncensored content generation. Note: it is Image-to-Video only (no text-to-video).
+Yes — **Wan 2.2 Spicy I2V** is available through [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=ai-video-model-comparison) at from $0.03/suest. It is the only model in this benchmark that allows uncensored content generation. Note: it is Image-to-Video only (no text-to-video).
 
 ### How do I switch between models?
 
@@ -884,7 +884,7 @@ Don't take our word for it — test every model through Atlas Cloud's unified AP
 
 <div align="center">
 
-### [Start Free on Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)
+### [Start Free on Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=ai-video-model-comparison)
 
 </div>
 
@@ -915,7 +915,7 @@ We welcome contributions! This benchmark is a living document and benefits from 
 
 ### Disclaimer
 
-Quality ratings in this benchmark are based on standardized testing as of March 2026. AI video models are updated frequently — ratings may shift as providers release new versions. Pricing is subject to change. Always verify current pricing on [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) or official provider websites.
+Quality ratings in this benchmark are based on standardized testing as of March 2026. AI video models are updated frequently — ratings may shift as providers release new versions. Pricing is subject to change. Always verify current pricing on [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=ai-video-model-comparison) or official provider websites.
 
 ---
 
@@ -929,6 +929,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 **Built with data, not opinions.**
 
-[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) | [Report Issue](https://github.com/atlas-github/ai-video-model-comparison/issues) | [Contribute](https://github.com/atlas-github/ai-video-model-comparison/pulls)
+[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=ai-video-model-comparison) | [Report Issue](https://github.com/atlas-github/ai-video-model-comparison/issues) | [Contribute](https://github.com/atlas-github/ai-video-model-comparison/pulls)
 
 </div>
